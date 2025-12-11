@@ -1,0 +1,68 @@
+/* Background */
+.add-student-container {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #e3f2fd, #bbdefb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Center card */
+.add-student-card {
+  background: #fff;
+  width: 420px;
+  padding: 35px 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.7s ease-in-out;
+  text-align: center;
+}
+
+/* Title */
+.add-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.add-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  border: 1px solid #b0bec5;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.add-input:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 5px rgba(25, 118, 210, 0.4);
+}
+
+/* Button */
+.add-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  border-radius: 30px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: #0d47a1;
+  transform: translateY(-3px);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

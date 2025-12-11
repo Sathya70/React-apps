@@ -1,0 +1,57 @@
+/* Background */
+.update-container {
+  background-color: #f7f9fc;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+/* Title */
+.update-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/* Search box */
+.search-box {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+/* Update form */
+.update-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* RegNo label */
+.reg-display {
+  background: #eef4ff;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #084298;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn-success {
+  background-color: #198754;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #146c43;
+}
+
+/* Form labels */
+label {
+  font-weight: 600;
+}
